@@ -1,0 +1,33 @@
+<?php
+ // created: 2018-03-28 15:10:17
+
+$app_list_strings['imt_list']=array (
+  '' => '',
+  'ANZ' => 'ANZ',
+  'ASEAN' => 'ASEAN',
+  'BENELUX' => 'BENELUX',
+  'Brazil' => 'Brazil',
+  'Canada' => 'Canada',
+  'CEE' => 'CEE',
+  'CENTRAL EAST AFRICA' => 'CENTRAL EAST AFRICA',
+  'DACH' => 'DACH',
+  'FRANCE' => 'FRANCE',
+  'GREATER CHINA' => 'GREATER CHINA',
+  'HONG KONG' => 'HONG KONG',
+  'IIF' => 'IIF',
+  'ISA' => 'ISA',
+  'ITALY' => 'ITALY',
+  'Japan' => 'Japan',
+  'KOREA' => 'KOREA',
+  'MEA' => 'MEA',
+  'Mexico' => 'Mexico',
+  'MOROCCO' => 'MOROCCO',
+  'NORDIC' => 'NORDIC',
+  'SOUTH AFRICA' => 'SOUTH AFRICA',
+  'SPGI' => 'SPGI',
+  'SSA' => 'SSA',
+  'TAIWAN' => 'TAIWAN',
+  'TURKEY' => 'TURKEY',
+  'UKI' => 'UKI',
+  'US' => 'US',
+);

@@ -1,0 +1,2 @@
+PHP Warning:  include(/mnt/sugar/shadowed/ibmigfcof.sugarondemand.com/sugar_version.php): failed to open stream: operation failed in /opt/nannybot/versions/1325/tasks/php_lib/InstanceFS.php on line 87
+PHP Warning:  include(): Failed opening '/mnt/sugar/shadowed/ibmigfcof.sugarondemand.com/sugar_version.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') in /opt/nannybot/versions/1325/tasks/php_lib/InstanceFS.php on line 87
