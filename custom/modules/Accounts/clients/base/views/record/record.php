@@ -182,14 +182,47 @@ array (
                 'label' => 'LBL_DBA',
               ),
               1 => 'website',
-              2 => 'phone_office',
-              3 => 'account_type',
-              4 => 'parent_name',
+              2 => 
+              array (
+                'name' => 'grmg_c',
+                'label' => 'LBL_GRMG',
+              ),
+              3 => 
+              array (
+                'name' => 'dealer_status_c',
+                'label' => 'LBL_DEALER_STATUS',
+              ),
+              4 => 
+              array (
+                'name' => 'ibm_legal_entity_accounts_1_name',
+              ),
               5 => 
+              array (
+                'name' => 'ibm_enterprise_accounts_1_name',
+              ),
+              6 => 
+              array (
+                'name' => 'legal_entity_country_c',
+                'label' => 'LBL_LEGAL_ENTITY_COUNTRY',
+              ),
+              7 => 
+              array (
+                'name' => 'enterprise_country_c',
+                'label' => 'LBL_ENTERPRISE_COUNTRY',
+              ),
+              8 => 'phone_office',
+              9 => 
+              array (
+                'name' => 'account_type',
+              ),
+              10 => 
+              array (
+              ),
+              11 => 
               array (
                 'name' => 'assigned_user_name',
               ),
-              6 => 
+              12 => 
               array (
                 'related_fields' => 
                 array (
@@ -199,7 +232,7 @@ array (
                 'name' => 'annual_contract_value_c',
                 'label' => 'LBL_ANNUAL_CONTRACT_VALUE',
               ),
-              7 => 
+              13 => 
               array (
                 'name' => 'geography_c',
                 'label' => 'LBL_GEOGRAPHY',
@@ -207,6 +240,58 @@ array (
             ),
           ),
           2 => 
+          array (
+            'newTab' => false,
+            'panelDefault' => 'expanded',
+            'name' => 'LBL_RECORDVIEW_PANEL1',
+            'label' => 'LBL_RECORDVIEW_PANEL1',
+            'columns' => 2,
+            'labelsOnTop' => 1,
+            'placeholders' => 1,
+            'fields' => 
+            array (
+              0 => 
+              array (
+                'name' => 'dealer_contact_c',
+                'label' => 'LBL_DEALER_CONTACT',
+              ),
+              1 => 
+              array (
+                'name' => 'dealer_contact_address_c',
+                'studio' => 'visible',
+                'label' => 'LBL_DEALER_CONTACT_ADDRESS',
+              ),
+              2 => 
+              array (
+              ),
+              3 => 
+              array (
+                'name' => 'dealer_contact_country_c',
+                'label' => 'LBL_DEALER_CONTACT_COUNTRY',
+              ),
+              4 => 
+              array (
+                'name' => 'dealer_contact_fax_c',
+                'label' => 'LBL_DEALER_CONTACT_FAX',
+              ),
+              5 => 
+              array (
+                'name' => 'dealer_contact_fax_ext_c',
+                'label' => 'LBL_DEALER_CONTACT_FAX_EXT',
+              ),
+              6 => 
+              array (
+                'name' => 'dealer_contact_phone_c',
+                'label' => 'LBL_DEALER_CONTACT_PHONE',
+              ),
+              7 => 
+              array (
+                'name' => 'dealer_contact_phone_ext_c',
+                'label' => 'LBL_DEALER_CONTACT_PHONE_EXT',
+              ),
+            ),
+          ),
+          3 => 
           array (
             'name' => 'panel_hidden',
             'label' => 'LBL_RECORD_SHOWMORE',
@@ -276,16 +361,12 @@ array (
                 'readonly' => true,
                 'span' => 6,
               ),
-              6 => 'campaign_name',
-              7 => 'twitter',
-              8 => 
+              6 => 
               array (
                 'name' => 'team_name',
               ),
-              9 => 
-              array (
-              ),
-              10 => 
+              7 => 'twitter',
+              8 => 
               array (
                 'name' => 'date_entered_by',
                 'readonly' => true,
@@ -309,7 +390,7 @@ array (
                   ),
                 ),
               ),
-              11 => 
+              9 => 
               array (
                 'name' => 'date_modified_by',
                 'readonly' => true,
@@ -333,28 +414,10 @@ array (
                   ),
                 ),
               ),
-              12 => 
+              10 => 
               array (
                 'name' => 'tag',
                 'span' => 12,
-              ),
-              13 => 
-              array (
-              ),
-              14 => 
-              array (
-              ),
-              15 => 
-              array (
-              ),
-              16 => 
-              array (
-              ),
-              17 => 
-              array (
-              ),
-              18 => 
-              array (
               ),
             ),
           ),

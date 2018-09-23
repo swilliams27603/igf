@@ -1,8 +1,8 @@
 <?php
-// created: 2018-04-20 21:39:50
+// created: 2018-09-20 15:15:51
 $app_list_strings['moduleListSingular']['Home'] = 'Home';
 $app_list_strings['moduleListSingular']['Contacts'] = 'Contact';
-$app_list_strings['moduleListSingular']['Accounts'] = 'Account';
+$app_list_strings['moduleListSingular']['Accounts'] = 'Dealer';
 $app_list_strings['moduleListSingular']['Opportunities'] = 'Opportunity';
 $app_list_strings['moduleListSingular']['Cases'] = 'Case';
 $app_list_strings['moduleListSingular']['Notes'] = 'Attachment';
@@ -29,5 +29,8 @@ $app_list_strings['moduleListSingular']['Prospects'] = 'Target';
 $app_list_strings['moduleListSingular']['ProspectLists'] = 'Target List';
 $app_list_strings['moduleListSingular']['Tags'] = 'Tag';
 $app_list_strings['moduleListSingular']['OutboundEmail'] = 'Email Setting';
+$app_list_strings['moduleListSingular']['DataPrivacy'] = 'Data Privacy';
 $app_list_strings['moduleListSingular']['KBContents'] = 'Knowledge Base Article';
 $app_list_strings['moduleListSingular']['ops_Backups'] = 'Backup';
+$app_list_strings['moduleListSingular']['ibm_Legal_Entity'] = 'Legal Entity';
+$app_list_strings['moduleListSingular']['ibm_Enterprise'] = 'Enterprise';

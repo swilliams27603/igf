@@ -185,6 +185,7 @@ array (
               0 => 
               array (
                 'name' => 'account_name',
+                'required' => false,
                 'related_fields' => 
                 array (
                   0 => 'account_id',
@@ -193,63 +194,71 @@ array (
               1 => 'assigned_user_name',
               2 => 
               array (
+                'name' => 'ibm_enterprise_opportunities_1_name',
+              ),
+              3 => 
+              array (
+                'name' => 'ibm_legal_entity_opportunities_1_name',
+              ),
+              4 => 
+              array (
                 'name' => 'geography_c',
                 'label' => 'LBL_GEOGRAPHY',
               ),
-              3 => 
+              5 => 
               array (
                 'name' => 'imt_c',
                 'label' => 'LBL_IMT',
               ),
-              4 => 
+              6 => 
               array (
                 'name' => 'team_name',
               ),
-              5 => 
+              7 => 
               array (
                 'name' => 'other_igf_sales_lead_c',
                 'studio' => 'visible',
                 'label' => 'LBL_OTHER_IGF_SALES_LEAD',
               ),
-              6 => 'opportunity_type',
-              7 => 
+              8 => 'opportunity_type',
+              9 => 
               array (
                 'name' => 'offering_type_c',
                 'label' => 'LBL_OFFERING_TYPE',
               ),
-              8 => 
+              10 => 
               array (
                 'name' => 'description',
                 'span' => 6,
               ),
-              9 => 
+              11 => 
               array (
                 'name' => 'offering_detail_new_c',
                 'studio' => 'visible',
                 'label' => 'LBL_OFFERING_DETAIL_NEW',
                 'span' => 6,
               ),
-              10 => 
+              12 => 
               array (
                 'name' => 'supplier_c',
                 'label' => 'LBL_SUPPLIER',
               ),
-              11 => 
+              13 => 
               array (
                 'name' => 'distributor_c',
                 'label' => 'LBL_DISTRIBUTOR',
               ),
-              12 => 
+              14 => 
               array (
                 'name' => 'other_supplier_c',
                 'label' => 'LBL_OTHER_SUPPLIER',
               ),
-              13 => 
+              15 => 
               array (
                 'name' => 'other_none_distributor_c',
                 'label' => 'LBL_OTHER_NONE_DISTRIBUTOR',
               ),
-              14 => 
+              16 => 
               array (
                 'related_fields' => 
                 array (
@@ -259,13 +268,13 @@ array (
                 'name' => 'acv_c',
                 'label' => 'LBL_ACV',
               ),
-              15 => 
+              17 => 
               array (
                 'name' => 'acv_calculation_new_c',
                 'studio' => 'visible',
                 'label' => 'LBL_ACV_CALCULATION_NEW',
               ),
-              16 => 
+              18 => 
               array (
                 'related_fields' => 
                 array (
@@ -275,32 +284,32 @@ array (
                 'name' => 'revenue_c',
                 'label' => 'LBL_REVENUE',
               ),
-              17 => 
+              19 => 
               array (
               ),
-              18 => 
+              20 => 
               array (
                 'name' => 'sales_stage',
               ),
-              19 => 
+              21 => 
               array (
                 'name' => 'forecast_c',
                 'label' => 'LBL_FORECAST',
               ),
-              20 => 
+              22 => 
               array (
                 'name' => 'probability',
               ),
-              21 => 
+              23 => 
               array (
               ),
-              22 => 
+              24 => 
               array (
                 'name' => 'next_step_new_c',
                 'studio' => 'visible',
                 'label' => 'LBL_NEXT_STEP_NEW',
               ),
-              23 => 
+              25 => 
               array (
                 'name' => 'date_closed',
                 'related_fields' => 
@@ -308,12 +317,12 @@ array (
                   0 => 'date_closed_timestamp',
                 ),
               ),
-              24 => 
+              26 => 
               array (
                 'name' => 'date_of_next_step_c',
                 'label' => 'LBL_DATE_OF_NEXT_STEP',
               ),
-              25 => 
+              27 => 
               array (
                 'name' => 'amount',
                 'type' => 'currency',
@@ -328,53 +337,53 @@ array (
                 'base_rate_field' => 'base_rate',
                 'span' => 6,
               ),
-              26 => 
+              28 => 
               array (
                 'name' => 'pricing_new_c',
                 'studio' => 'visible',
                 'label' => 'LBL_PRICING_NEW',
               ),
-              27 => 
+              29 => 
               array (
                 'name' => 'credit_new_c',
                 'studio' => 'visible',
                 'label' => 'LBL_CREDIT_NEW',
               ),
-              28 => 
+              30 => 
               array (
                 'name' => 'proof_of_funding_new_c',
                 'studio' => 'visible',
                 'label' => 'LBL_PROOF_OF_FUNDING_NEW',
               ),
-              29 => 
+              31 => 
               array (
                 'name' => 'any_other_information_new_c',
                 'studio' => 'visible',
                 'label' => 'LBL_ANY_OTHER_INFORMATION_NEW',
               ),
-              30 => 
+              32 => 
               array (
                 'name' => 'contracts_legal_c',
                 'studio' => 'visible',
                 'label' => 'LBL_CONTRACTS_LEGAL',
               ),
-              31 => 
+              33 => 
               array (
                 'name' => 'antimoney_c',
                 'studio' => 'visible',
                 'label' => 'LBL_ANTIMONEY',
               ),
-              32 => 
+              34 => 
               array (
                 'name' => 'closed_lost_reason_c',
                 'label' => 'LBL_CLOSED_LOST_REASON',
               ),
-              33 => 
+              35 => 
               array (
                 'name' => 'closed_lost_reason_details_c',
                 'label' => 'LBL_CLOSED_LOST_REASON_DETAILS',
               ),
-              34 => 
+              36 => 
               array (
                 'name' => 'date_entered_by',
                 'readonly' => true,
@@ -397,7 +406,7 @@ array (
                   ),
                 ),
               ),
-              35 => 
+              37 => 
               array (
                 'name' => 'date_modified_by',
                 'readonly' => true,
