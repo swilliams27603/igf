@@ -33,3 +33,4 @@ $mod_strings['LBL_TREE_TITLE'] = 'Knowledge Base';
 $mod_strings['LBL_LIST_TEMPLATE_TYPE'] = 'Knowledge Base Article Type';
 $mod_strings['LBL_DOC_ID'] = 'Knowledge Base Article Source ID';
 $mod_strings['LBL_DOC_URL'] = 'Knowledge Base Article Source URL';
+$mod_strings['LBL_ACCOUNTS_SUBPANEL_TITLE'] = 'Dealers';
