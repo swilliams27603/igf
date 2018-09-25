@@ -23,6 +23,12 @@ $dictionary["Opportunity"]["fields"]["ibm_enterprise_opportunities_1_name"] = ar
   'table' => 'ibm_enterprise',
   'module' => 'ibm_Enterprise',
   'rname' => 'name',
+  'populate_list' => array(
+    'market' => 'imt_c',
+    'geography' => 'geography_c',
+  ),
+  'auto_populate' => true,
+    
 );
 $dictionary["Opportunity"]["fields"]["ibm_enterprise_opportunities_1ibm_enterprise_ida"] = array (
   'name' => 'ibm_enterprise_opportunities_1ibm_enterprise_ida',

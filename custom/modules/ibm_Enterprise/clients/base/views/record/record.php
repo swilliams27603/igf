@@ -173,14 +173,20 @@ array (
               array (
                 'name' => 'enterprise_country',
                 'label' => 'LBL_ENTERPRISE_COUNTRY',
+                'span' => 12,
               ),
               1 => 
               array (
                 'name' => 'geography',
                 'label' => 'LBL_GEOGRAPHY',
               ),
-              2 => 'team_name',
-              3 => 
+              2 => 
+              array (
+                'name' => 'market',
+                'label' => 'LBL_MARKET',
+              ),
+              3 => 'team_name',
+              4 => 
               array (
                 'name' => 'date_entered_by',
                 'readonly' => true,
@@ -204,8 +210,8 @@ array (
                   ),
                 ),
               ),
-              4 => 'assigned_user_name',
-              5 => 
+              5 => 'assigned_user_name',
+              6 => 
               array (
                 'name' => 'date_modified_by',
                 'readonly' => true,

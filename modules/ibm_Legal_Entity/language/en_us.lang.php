@@ -140,4 +140,5 @@ $mod_strings = array (
   'LBL_IMPORT' => 'Import Legal Entities',
   'LBL_IMPORT_VCARDTEXT' => 'Automatically create a new Legal Entity record by importing a vCard from your file system.',
   'LBL_LEGAL_ENTITY_COUNTRY' => 'Legal Entity Country',
+  'LBL_FILTER_ENTERPRISE_TEMPLATE' => 'Legal Entities by Enterprise',
 );

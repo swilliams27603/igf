@@ -64,4 +64,5 @@ $mod_strings['LBL_OFFERING_TYPE'] = 'Offering Type';
 $mod_strings['LBL_IBM_ENTERPRISE_ACCOUNTS_1_FROM_ACCOUNTS_TITLE_ID'] = 'Enterprise';
 $mod_strings['LBL_IBM_LEGAL_ENTITY_ACCOUNTS_1_FROM_ACCOUNTS_TITLE_ID'] = 'Legal Entity';
 $mod_strings['LBL_IRFS_ACCT_ID'] = 'IRFS Account ID';
+$mod_strings['LBL_FILTER_ENTLEGAL_TEMPLATE'] = 'Dealers by Enterprise/Legal Entity';
 

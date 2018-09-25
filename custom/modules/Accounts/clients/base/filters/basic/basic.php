@@ -1,16 +1,5 @@
-<?php
-/*
- * Your installation or use of this SugarCRM file is subject to the applicable
- * terms available at
- * http://support.sugarcrm.com/Resources/Master_Subscription_Agreements/.
- * If you do not agree to all of the applicable terms or do not have the
- * authority to bind the entity as an authorized representative, then do not
- * install or use this SugarCRM file.
- *
- * Copyright (C) SugarCRM Inc. All rights reserved.
- */
-
-$viewdefs['ibm_Legal_Entity']['base']['filter']['basic'] = array(
+<?php 
+$viewdefs['Accounts']['base']['filter']['basic'] = array(
     'create'               => true,
     'quicksearch_field'    => array('name'),
     'quicksearch_priority' => 1,
@@ -57,17 +46,22 @@ $viewdefs['ibm_Legal_Entity']['base']['filter']['basic'] = array(
             'editable'          => false
         ),
         array(
-            'id' => 'filterEnterpriseTemplate',
-            'name' => 'LBL_FILTER_ENTERPRISE_TEMPLATE',
+            'id' => 'filterEntLegalTemplate',
+            'name' => 'LBL_FILTER_ENTLEGAL_TEMPLATE',
             'filter_definition' => array(
                 array(
-                    'ibm_enterprise_ibm_legal_entity_1ibm_enterprise_ida' => array(
+                    'ibm_enterprise_accounts_1ibm_enterprise_ida' => array(
                         '$in' => array(),
                     ),
                 ),
+                array(
+                    'ibm_legal_entity_accounts_1ibm_legal_entity_ida' => array(
+                        '$in' => array(),
+                    ),    
+                ),
             ),
             'editable' => true,
-            'is_template' => true,            
+            'is_template' => true,        
         ),
     ),
 );

@@ -141,4 +141,6 @@ $mod_strings = array (
   'LBL_IMPORT_VCARDTEXT' => 'Automatically create a new Enterprise record by importing a vCard from your file system.',
   'LBL_GEOGRAPHY' => 'Geography',
   'LBL_ENTERPRISE_COUNTRY' => 'Enterprise Country',
+  'LBL_MARKET' => 'Market',
+  'LBL_FILTER_ENTERPRISE_TEMPLATE' => 'Legal Entities by Enterprise',
 );
