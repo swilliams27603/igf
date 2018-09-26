@@ -1,5 +1,5 @@
 <?php
-// created: 2018-09-25 10:53:51
+// created: 2018-09-26 11:13:06
 $viewdefs['Accounts']['base']['filter']['default'] = array (
   'default_filter' => 'all_records',
   'fields' => 
@@ -37,19 +37,16 @@ $viewdefs['Accounts']['base']['filter']['default'] = array (
     'ibm_legal_entity_accounts_1_name' => 
     array (
     ),
-    'ibm_enterprise_accounts_1_name' => 
+    'dealer_contact_c' => 
     array (
     ),
-    'industry' => 
+    'ibm_enterprise_accounts_1_name' => 
     array (
     ),
     'date_entered' => 
     array (
     ),
     'date_modified' => 
-    array (
-    ),
-    'tag' => 
     array (
     ),
     '$owner' => 

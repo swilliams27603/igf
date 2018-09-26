@@ -178,8 +178,8 @@ array (
             array (
               0 => 
               array (
-                'name' => 'dba_c',
-                'label' => 'LBL_DBA',
+                'name' => 'financier_c',
+                'label' => 'LBL_FINANCIER',
               ),
               1 => 'website',
               2 => 
@@ -194,35 +194,43 @@ array (
               ),
               4 => 
               array (
-                'name' => 'ibm_legal_entity_accounts_1_name',
               ),
               5 => 
               array (
-                'name' => 'ibm_enterprise_accounts_1_name',
+                'name' => 'market_c',
+                'label' => 'LBL_MARKET',
               ),
               6 => 
               array (
-                'name' => 'legal_entity_country_c',
-                'label' => 'LBL_LEGAL_ENTITY_COUNTRY',
+                'name' => 'ibm_enterprise_accounts_1_name',
               ),
               7 => 
+              array (
+                'name' => 'ibm_legal_entity_accounts_1_name',
+              ),
+              8 => 
               array (
                 'name' => 'enterprise_country_c',
                 'label' => 'LBL_ENTERPRISE_COUNTRY',
               ),
-              8 => 'phone_office',
               9 => 
+              array (
+                'name' => 'legal_entity_country_c',
+                'label' => 'LBL_LEGAL_ENTITY_COUNTRY',
+              ),
+              10 => 'phone_office',
+              11 => 
               array (
                 'name' => 'account_type',
               ),
-              10 => 
+              12 => 
               array (
               ),
-              11 => 
+              13 => 
               array (
                 'name' => 'assigned_user_name',
               ),
-              12 => 
+              14 => 
               array (
                 'related_fields' => 
                 array (
@@ -232,7 +240,7 @@ array (
                 'name' => 'annual_contract_value_c',
                 'label' => 'LBL_ANNUAL_CONTRACT_VALUE',
               ),
-              13 => 
+              15 => 
               array (
                 'name' => 'geography_c',
                 'label' => 'LBL_GEOGRAPHY',

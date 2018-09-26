@@ -184,26 +184,26 @@ array (
             array (
               0 => 
               array (
+                'name' => 'ibm_enterprise_opportunities_1_name',
+              ),
+              1 => 'assigned_user_name',
+              2 => 
+              array (
+                'name' => 'ibm_legal_entity_opportunities_1_name',
+              ),
+              3 => 
+              array (
+                'name' => 'geography_c',
+                'label' => 'LBL_GEOGRAPHY',
+              ),
+              4 => 
+              array (
                 'name' => 'account_name',
                 'required' => false,
                 'related_fields' => 
                 array (
                   0 => 'account_id',
                 ),
-              ),
-              1 => 'assigned_user_name',
-              2 => 
-              array (
-                'name' => 'ibm_enterprise_opportunities_1_name',
-              ),
-              3 => 
-              array (
-                'name' => 'ibm_legal_entity_opportunities_1_name',
-              ),
-              4 => 
-              array (
-                'name' => 'geography_c',
-                'label' => 'LBL_GEOGRAPHY',
               ),
               5 => 
               array (

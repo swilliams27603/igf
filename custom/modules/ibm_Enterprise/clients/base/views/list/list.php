@@ -26,22 +26,22 @@ array (
               ),
               1 => 
               array (
-                'name' => 'enterprise_country',
-                'label' => 'LBL_ENTERPRISE_COUNTRY',
-                'enabled' => true,
-                'default' => true,
-              ),
-              2 => 
-              array (
                 'name' => 'geography',
                 'label' => 'LBL_GEOGRAPHY',
                 'enabled' => true,
                 'default' => true,
               ),
-              3 => 
+              2 => 
               array (
                 'name' => 'market',
                 'label' => 'LBL_MARKET',
+                'enabled' => true,
+                'default' => true,
+              ),
+              3 => 
+              array (
+                'name' => 'enterprise_country',
+                'label' => 'LBL_ENTERPRISE_COUNTRY',
                 'enabled' => true,
                 'default' => true,
               ),

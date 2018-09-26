@@ -23,6 +23,24 @@ $viewdefs[$module_name]['base']['view']['selection-list'] = array(
                     'enabled' => true,
                     'link' => true,
                 ),
+                array (
+                    'name' => 'geography',
+                    'label' => 'LBL_GEOGRAPHY',
+                    'enabled' => true,
+                    'default' => true,
+                ),
+                array (
+                    'name' => 'market',
+                    'label' => 'LBL_MARKET',
+                    'enabled' => true,
+                    'default' => true,
+                ),
+                array (
+                    'name' => 'enterprise_country',
+                    'label' => 'LBL_ENTERPRISE_COUNTRY',
+                    'enabled' => true,
+                    'default' => true,
+                ),
                 array(
                     'name' => 'team_name',
                     'label' => 'LBL_TEAM',
@@ -35,13 +53,6 @@ $viewdefs[$module_name]['base']['view']['selection-list'] = array(
                     'default' => true,
                     'enabled' => true,
                     'link' => true,
-                ),
-                array(
-                    'label' => 'LBL_DATE_MODIFIED',
-                    'enabled' => true,
-                    'default' => true,
-                    'name' => 'date_modified',
-                    'readonly' => true,
                 ),
             ),
         ),

@@ -1,6 +1,6 @@
 <?php
-// created: 2018-09-26 11:13:07
-$searchFields['Accounts'] = array (
+// created: 2018-09-26 11:15:41
+$searchFields['ibm_Enterprise'] = array (
   'name' => 
   array (
     'query_type' => 'default',
@@ -38,7 +38,6 @@ $searchFields['Accounts'] = array (
       0 => 'billing_address_city',
       1 => 'shipping_address_city',
     ),
-    'vname' => 'LBL_CITY',
   ),
   'address_state' => 
   array (
@@ -48,7 +47,6 @@ $searchFields['Accounts'] = array (
       0 => 'billing_address_state',
       1 => 'shipping_address_state',
     ),
-    'vname' => 'LBL_STATE',
   ),
   'address_postalcode' => 
   array (
@@ -58,7 +56,6 @@ $searchFields['Accounts'] = array (
       0 => 'billing_address_postalcode',
       1 => 'shipping_address_postalcode',
     ),
-    'vname' => 'LBL_POSTAL_CODE',
   ),
   'address_country' => 
   array (
@@ -68,7 +65,6 @@ $searchFields['Accounts'] = array (
       0 => 'billing_address_country',
       1 => 'shipping_address_country',
     ),
-    'vname' => 'LBL_COUNTRY',
   ),
   'rating' => 
   array (
@@ -81,7 +77,6 @@ $searchFields['Accounts'] = array (
     array (
       0 => 'phone_office',
     ),
-    'vname' => 'LBL_ANY_PHONE',
   ),
   'email' => 
   array (
@@ -103,10 +98,6 @@ $searchFields['Accounts'] = array (
     'query_type' => 'default',
   ),
   'employees' => 
-  array (
-    'query_type' => 'default',
-  ),
-  'sic_code' => 
   array (
     'query_type' => 'default',
   ),
@@ -135,7 +126,7 @@ $searchFields['Accounts'] = array (
     'operator' => 'subquery',
     'subquery' => 'SELECT sugarfavorites.record_id FROM sugarfavorites 
 			                    WHERE sugarfavorites.deleted=0 
-			                        and sugarfavorites.module = \'Accounts\'
+			                        and sugarfavorites.module = \'ibm_Enterprise\' 
 			                        and sugarfavorites.assigned_user_id = \'{0}\'',
     'db_field' => 
     array (

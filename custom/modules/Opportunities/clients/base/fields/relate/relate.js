@@ -15,83 +15,53 @@
         }
     	
     	var ent_id = this.model.get('ibm_enterprise_opportunities_1ibm_enterprise_ida');
-    	if (!_.isUndefined(ent_id)) {
-    		var ent_name = this.model.get('ibm_enterprise_opportunities_1_name');
-    	
-        	var enterprise = app.data.createBean('ibm_Enterprise', {
-        		'name': ent_name,
-        		'id'  : ent_id,
-        	});
-    	} 
-    	
     	var le_id = this.model.get('ibm_legal_entity_opportunities_1ibm_legal_entity_ida');
-    	if(!_.isUndefined(le_id)) {
-    		var le_name = this.model.get('ibm_legal_entity_opportunities_1_name');
     	
-    		var legal = app.data.createBean('ibm_Legal_Entity', {
-    			'name': le_name,
-    			'id'  : le_id,
-    		});
+    	if (_.isUndefined(ent_id) && (_.isUndefined(le_id))) {
+    		return this.getFilterOptions(force);
     	}
+    	
+    	var initial_filter = 'filterEntLegalTemplate';
+    	var initial_filter_label = 'LBL_FILTER_ENTLEGAL_TEMPLATE';
+    	var filter_populate;
     	
     	switch(this.name) {
     		case 'ibm_legal_entity_opportunities_1_name':	
     			if (_.isUndefined(ent_id)) {
     				this.getFilterOptions(force);
     			} else {	
-    				this._filterOptions = new app.utils.FilterOptions()
-    				.config({
-    					'initial_filter': 'filterEnterpriseTemplate',
-    					'initial_filter_label': 'LBL_FILTER_ENTERPRISE_TEMPLATE',
-    					'filter_populate': {
-    						'ibm_enterprise_ibm_legal_entity_1ibm_enterprise_ida': [ent_id],
-    					},
-    				})
-    				.populateRelate(enterprise)
-    				.format();
+    				initial_filter = 'filterEnterpriseTemplate';
+    				initial_filter_label = 'LBL_FILTER_ENTERPRISE_TEMPLATE';
+    				filter_populate = { 'ibm_enterprise_ibm_legal_entity_1ibm_enterprise_ida': [ent_id] };
     			}
     			break;
-    		case 'account_name':	
+    		case 'account_name':
     			if ((!_.isUndefined(ent_id)) && (!_.isUndefined(le_id))) {
-    		    	this._filterOptions = new app.utils.FilterOptions()
-    				.config({
-    					'initial_filter': 'filterEntLegalTemplate',
-    					'initial_filter_label': 'LBL_FILTER_ENTLEGAL_TEMPLATE',
-    					'filter_populate': {
+    				filter_populate = {
     						'ibm_enterprise_accounts_1ibm_enterprise_ida': [ent_id],
     						'ibm_legal_entity_accounts_1ibm_legal_entity_ida':[le_id],
-    					},
-    				})
-    				.populateRelate(enterprise)
-    				.populateRelate(legal)
-    				.format();
+    				};
     			} else if (!_.isUndefined(ent_id)) {
-    		    	this._filterOptions = new app.utils.FilterOptions()
-    				.config({
-    					'initial_filter': 'filterEntLegalTemplate',
-    					'initial_filter_label': 'LBL_FILTER_ENTLEGAL_TEMPLATE',
-    					'filter_populate': {
+    				filter_populate = {
     						'ibm_enterprise_accounts_1ibm_enterprise_ida': [ent_id],
-    					},
-    				})
-    				.populateRelate(enterprise)
-    				.format();
-    			} else if (!_.isUndefined(le_if)) {
-    		    	this._filterOptions = new app.utils.FilterOptions()
-    				.config({
-    					'initial_filter': 'filterEntLegalTemplate',
-    					'initial_filter_label': 'LBL_FILTER_ENTLEGAL_TEMPLATE',
-    					'filter_populate': {
-    						'ibm_legal_entity_accounts_1ibm_legal_entity_ida':[le],
-    					},
-    				})
-    				.populateRelate(legal)
-    				.format();
+    				};
+    			} else if (!_.isUndefined(le_id)) {
+    				filter_populate = {
+    						'ibm_legal_entity_accounts_1ibm_legal_entity_ida':[le_id],		
+    				};
     			}
     			break;
     		default:
     			return this.getFilterOptions(force);
     	}
+
+    	this._filterOptions = new app.utils.FilterOptions()
+		.config({
+			'initial_filter': initial_filter,
+			'initial_filter_label': initial_filter_label,
+			'filter_populate': filter_populate
+		})
+		.format();;
     	
         return this._filterOptions;
     },
@@ -110,7 +80,6 @@
     		        }].concat(filter);
     			}			
     			break;
-    		
     		case 'account_name':
     			if (!_.isEmpty(ent)) {
     				filter = [{
@@ -124,11 +93,9 @@
     				}].concat(filter);
     			}
     			break;
-    			
     		default:
     			return filter;
     	}
-    	
     	return filter;
     },
     
@@ -154,6 +121,4 @@
             context: context
         }, _.bind(this.setValue, this));
     },
-    
-
 })

@@ -1,5 +1,5 @@
 <?php
-// created: 2018-09-24 14:58:44
+// created: 2018-09-26 11:46:46
 $searchFields['ibm_Legal_Entity'] = array (
   'name' => 
   array (

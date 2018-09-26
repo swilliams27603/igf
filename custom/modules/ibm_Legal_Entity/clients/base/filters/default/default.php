@@ -1,5 +1,5 @@
 <?php
-// created: 2018-09-24 14:58:43
+// created: 2018-09-26 11:46:46
 $viewdefs['ibm_Legal_Entity']['base']['filter']['default'] = array (
   'default_filter' => 'all_records',
   'fields' => 
@@ -17,6 +17,9 @@ $viewdefs['ibm_Legal_Entity']['base']['filter']['default'] = array (
     array (
     ),
     'assigned_user_name' => 
+    array (
+    ),
+    'from_acct_id' => 
     array (
     ),
     '$owner' => 
